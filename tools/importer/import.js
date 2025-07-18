@@ -282,7 +282,7 @@ export default {
 
     // sanitize the original URL
     /* eslint-disable no-param-reassign */
-    source.params.originalURL = new URL(originalURL).href;
+    //source.params.originalURL = new URL(originalURL).href;
 
     /* eslint-disable-next-line prefer-const */
     let publishUrl = window.location.origin;
